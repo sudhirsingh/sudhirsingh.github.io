@@ -9,7 +9,7 @@ $(document).ready(function() {
             logs: 1
         },
         github: {
-            org: 'sudhirsingh,',
+            org: 'sudhirsingh',
             repo: 'sudhirsingh.github.io'
         }
     };
