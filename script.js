@@ -9,16 +9,16 @@ $(document).ready(function() {
             logs: 1
         },
         github: {
-            org: 'sudhirsingh@m-ize.co,',
-            repo: 'https://github.com/m-ize/CXCloud.git'
+            org: 'sudhirsingh,',
+            repo: 'sudhirsingh.github.io'
         }
     };
 
     var status_text = {
-        'operational': 'operational',
+        'Online': 'operational',
         'investigating': 'investigating',
-        'major outage': 'outage',
-        'degraded performance': 'degraded',
+        'Offline': 'outage',
+        'Degraded Performance': 'degraded',
     };
 
     var monitors = config.uptimerobot.api_keys;
